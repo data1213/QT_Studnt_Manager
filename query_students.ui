@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Query_Students</class>
+ <widget class="QDialog" name="Query_Students">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>528</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="cb_query">
+       <item>
+        <property name="text">
+         <string>按姓名</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按学号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按院系</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_query"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_query">
+       <property name="text">
+        <string>开始查找</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
